@@ -1,15 +1,91 @@
-.c1{
-    background-color: blue;
-    height: 300px;
-    width: 300px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.c2{
-    background-color: red;
-    height: 300px;
-    width: 300px;
+html, body{
+    height: 100%;
+    width: 100%;
 }
 
 .main{
     display: grid;
+    height: 100%;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+    align-content: center   ;
+    grid-template-columns: 22% 30% 18% 30%;
+    grid-template-rows: 15% 25% 25% 15% 20%;
+    grid-template-areas:
+    "r11 r12 r13 r14"
+    "r11 r12 r13 r24"
+    "r21 r22 r13 r24"
+    "r21 r32 r33 r33"
+    "r21 r42 r33 r33";
 }
+
+.r11{
+grid-area: r11;
+background-color: blue;
+border-radius: 25px;
+}
+
+.r12{
+grid-area: r12;
+background-color: red;
+border-radius: 25px;
+}
+
+.r13{
+grid-area: r13;
+background-color: purple;
+border-radius: 25px;
+}
+
+.r14{
+grid-area: r14;
+background-color: black;
+border-radius: 25px;
+}
+
+.r21{
+grid-area: r21;
+background-color: royalblue;
+margin-left: -12px;
+margin-right: -5px;
+border-radius: 25px;
+}
+
+.r22{
+grid-area: r22;
+background-color: tomato;
+border-radius: 25px;
+}
+
+.r24{
+grid-area: r24;
+background-color: gold;
+margin-right: -12px;
+border-radius: 25px;
+}
+
+.r32{
+grid-area: r32;
+background-color: darkcyan;
+border-radius: 25px;
+}
+
+.r33{
+grid-area: r33;
+background-color: khaki;
+margin-right: -12px;
+border-radius: 25px;
+}
+
+.r42{
+grid-area: r42;
+background-color: indigo;
+border-radius: 25px;
+}
+
