@@ -13,8 +13,9 @@ html, body{
     height: 100%;
     gap: 10px;
     padding: 40px;
+    background-color: black;
     justify-content: center;
-    align-content: center   ;
+    align-content: center;
     grid-template-columns: 22% 30% 18% 30%;
     grid-template-rows: 15% 25% 25% 15% 20%;
     grid-template-areas:
@@ -26,66 +27,85 @@ html, body{
 }
 
 .r11{
+position: relative;
 grid-area: r11;
-background-color: blue;
 border-radius: 25px;
+margin-bottom: 10px;
+background: linear-gradient(to right, #b360fc, #9f53f5);
+overflow: hidden;
 }
 
 .r12{
 grid-area: r12;
-background-color: red;
+background-color: #151517;
 border-radius: 25px;
 }
 
 .r13{
 grid-area: r13;
-background-color: purple;
+background-color: #151517;
 border-radius: 25px;
 }
 
 .r14{
 grid-area: r14;
-background-color: black;
+background: linear-gradient(to right, #a95cf7,#783bcc);
 border-radius: 25px;
 }
 
 .r21{
 grid-area: r21;
-background-color: royalblue;
+background-color: black;
 margin-left: -12px;
-margin-right: -5px;
+margin-right: -3px;
 border-radius: 25px;
+border: 1px solid #bfc773;
 }
 
 .r22{
 grid-area: r22;
-background-color: tomato;
+background-color: #151517;
 border-radius: 25px;
 }
 
 .r24{
+position: relative;
 grid-area: r24;
-background-color: gold;
-margin-right: -12px;
+background-color: #d6f257;
 border-radius: 25px;
+margin-top: 10px;
+margin-left: 10px;
+overflow: hidden;
+display: grid;
+justify-items: center;
 }
 
 .r32{
 grid-area: r32;
-background-color: darkcyan;
+background-color: #151517;
 border-radius: 25px;
 }
 
 .r33{
 grid-area: r33;
-background-color: khaki;
+background-color: #ffffff;
 margin-right: -12px;
 border-radius: 25px;
 }
 
 .r42{
 grid-area: r42;
-background-color: indigo;
+background-color: #d8f257;
 border-radius: 25px;
 }
 
+#green{
+    height: 318px;
+    position: absolute;
+}
+
+#purple{
+    height: 361px;
+    position: absolute;
+    
+}
