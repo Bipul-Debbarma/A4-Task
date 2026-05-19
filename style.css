@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 html, body{
     height: 100%;
@@ -39,18 +40,35 @@ overflow: hidden;
 grid-area: r12;
 background-color: #151517;
 border-radius: 25px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 12px;
+padding-right: 10px;
 }
 
 .r13{
 grid-area: r13;
 background-color: #151517;
 border-radius: 25px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding-top: 25px;
+padding-left: 25px;
 }
 
 .r14{
 grid-area: r14;
 background: linear-gradient(to right, #a95cf7,#783bcc);
 border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 50px;
+padding-left: 15px;
+gap: 20px;
 }
 
 .r21{
@@ -76,8 +94,8 @@ border-radius: 25px;
 margin-top: 10px;
 margin-left: 10px;
 overflow: hidden;
-display: grid;
-justify-items: center;
+display: flex;
+justify-content: center;
 }
 
 .r32{
@@ -108,4 +126,90 @@ border-radius: 25px;
     height: 361px;
     position: absolute;
     
+}
+
+#circle{
+    position: absolute;
+    height: 300px;
+    filter: contrast(0) brightness(2);
+}
+
+
+.r13 p{
+    color: white;
+}
+
+#contact{
+ margin-top: 100px;
+}
+
+.ri-gallery-view-2{
+    margin-right: 12px;
+}
+
+.ri-wallet-line{
+    margin-right: 12px;
+}
+
+.ri-user-line{
+    margin-right: 12px;
+}
+
+.ri-auction-line{
+   margin-right: 12px; 
+   color: yellow;
+}
+
+.ri-line-chart-line{
+   margin-right: 12px;
+}
+
+.ri-star-line{
+   margin-right: 12px;
+}
+
+.ri-mail-line{
+   margin-right: 12px;
+}
+
+.auction{
+    width: 95%;
+    border-radius: 25px;
+    background-color:#2a292e;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.c{
+    background-color: #ad58fc;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#vert{
+    width: 2px;
+    height: 40px;
+    background-color: #a267f5;
+    margin-left: 20px;
+}
+
+#smile{
+    height: 55px;
+    filter: brightness(0) invert(1);
+}
+
+.r14 p{
+    font-size: 12px;
+    margin-left: -30px;
+}
+
+#cartan{
+    height: 55px;
+    filter: brightness(0) invert(1);
 }
