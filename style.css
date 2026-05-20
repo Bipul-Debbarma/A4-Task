@@ -109,12 +109,21 @@ grid-area: r33;
 background-color: #ffffff;
 margin-right: -12px;
 border-radius: 25px;
+display: flex;
+justify-content: center;
+gap: 170px;
+align-items: center;
 }
 
 .r42{
 grid-area: r42;
 background-color: #d8f257;
 border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 170px;
+position: relative;
 }
 
 #green{
@@ -212,4 +221,71 @@ border-radius: 25px;
 #cartan{
     height: 55px;
     filter: brightness(0) invert(1);
+}
+
+strong, h3{
+    color: black;
+}
+
+strong{
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+#leftp{
+    color: black;
+    font-size: 18px;
+}
+
+.ri-star-fill, .ri-star-half-line{
+    color: #d2f04f;
+    font-size: 25px;
+    margin-left: 4px;
+    margin-top: 
+}
+
+.reviews{
+    background-color: #763ac9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+#rv{
+    font-size: 17px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+}
+
+#str{
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.appstore{
+    margin-left: -150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ri-arrow-right-up-line{
+    margin-left: 100px;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: 85px;
+    top: 26px;
 }
